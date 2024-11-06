@@ -1,0 +1,37 @@
+/* Genel renkler */
+$primary-color: #2ceb67;
+$secondary-color: #ff4081;
+$success-color: #4caf50;
+$error-color: #f44336;
+$warning-color: #ff9800;
+$info-color: #2196f3;
+$heading-color: #2c3e50;
+$text-w-color: #ecf0f1;
+$text-b-color: #000000;
+$border-color: #e0e0e0;
+
+/* Light Tema */
+$light-background-color: #ffffff;
+$light-text-color: #121212;
+$light-link-color: #3498db;
+
+/* Dark Tema */
+$dark-background-color: #121212;
+$dark-text-color: #ecf0f1;
+$dark-link-color: #3498db;
+
+// Yazı tipi boyutları
+$font-size-small: 0.875rem;  // 14px
+$font-size-base: 1rem;       // 16px
+$font-size-large: 1.25rem;   // 20px
+$font-size-xlarge: 1.5rem;   // 24px
+
+// Mesafe ölçüleri
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Border-radius
+$border-radius: 5px;

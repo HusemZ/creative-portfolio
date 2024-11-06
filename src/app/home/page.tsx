@@ -3,7 +3,10 @@ import React from 'react';
 const MyComponent = () => {
     return (
         <div>
-            test
+            <div className="d-flex">
+                <div>dsadsa</div>
+                <div>dsadsa</div>
+            </div>
         </div>
     );
 };

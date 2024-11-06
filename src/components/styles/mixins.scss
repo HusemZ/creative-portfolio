@@ -1,0 +1,129 @@
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == small {
+    @media (max-width: 600px) {
+      @content;
+    }
+  } @else if $breakpoint == medium {
+    @media (max-width: 900px) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+@mixin flex-center($direction: row, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
+@mixin grid($columns: 2, $gap: 1rem) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: $gap;
+}
+
+@function fs($size) {
+  @return 0.75rem + ($size * 0.25rem);
+}
+
+@for $i from 1 through 8 {
+  .fs-#{$i} {
+    font-size: fs($i);
+  }
+}
+
+@function opacity($opacity) {
+  @return $opacity / 100;
+}
+
+@for $i from 0 through 100 {
+  .opacity-#{$i} {
+    opacity: opacity($i);
+  }
+}
+
+@for $i from 0 through 100 {
+  .h-#{$i} {
+    height: $i * 0.25rem;
+  }
+
+  .w-#{$i} {
+    width: $i * 0.25rem;
+  }
+}
+
+@for $i from 0 through 20 {
+  .mt-#{$i} {
+    margin-top: $i * 0.25rem;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $i * 0.25rem;
+  }
+
+  .mr-#{$i} {
+    margin-right: $i * 0.25rem;
+  }
+
+  .ml-#{$i} {
+    margin-left: $i * 0.25rem;
+  }
+
+  .my-#{$i} {
+    margin-top: $i * 0.25rem;
+    margin-bottom: $i * 0.25rem;
+  }
+
+  .mx-#{$i} {
+    margin-right: $i * 0.25rem;
+    margin-left: $i * 0.25rem;
+  }
+
+  .pt-#{$i} {
+    padding-top: $i * 0.25rem;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $i * 0.25rem;
+  }
+
+  .pr-#{$i} {
+    padding-right: $i * 0.25rem;
+  }
+
+  .pl-#{$i} {
+    padding-left: $i * 0.25rem;
+  }
+
+  .py-#{$i} {
+    padding-top: $i * 0.25rem;
+    padding-bottom: $i * 0.25rem;
+  }
+
+  .px-#{$i} {
+    padding-right: $i * 0.25rem;
+    padding-left: $i * 0.25rem;
+  }
+}
+

@@ -1,0 +1,90 @@
+@import '../../styles/variables';
+
+.button {
+  background-color: $primary-color;
+  color: $text-b-color;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+
+  &.danger {
+    background-color: $error-color;
+
+    &:hover {
+      background-color: darken($error-color, 10%);
+    }
+  }
+
+  &.success {
+    background-color: $success-color;
+
+    &:hover {
+      background-color: darken($success-color, 10%);
+    }
+  }
+
+  &.warning {
+    background-color: $warning-color;
+
+    &:hover {
+      background-color: darken($warning-color, 10%);
+    }
+  }
+
+  &.info {
+    background-color: $info-color;
+
+    &:hover {
+      background-color: darken($info-color, 10%);
+    }
+  }
+
+  &.light {
+    background-color: $light-background-color;
+    color: $light-text-color;
+
+    &:hover {
+      background-color: darken($light-background-color, 10%);
+    }
+  }
+
+  &.dark {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+
+    &:hover {
+      background-color: darken($dark-background-color, 10%);
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  &.rounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+}
