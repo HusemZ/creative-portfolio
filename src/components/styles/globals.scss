@@ -200,3 +200,8 @@ h6 {
     }
   }
 }
+
+.fc{
+  height: 100vh;
+  @include flex-center();
+}

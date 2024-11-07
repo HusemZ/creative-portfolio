@@ -43,6 +43,18 @@
   gap: $gap;
 }
 
+@for $i from 1 through 12 {
+  .grid-cols-#{$i} {
+    @include grid($i);
+  }
+}
+
+@for $i from 1 through 12 {
+  .gap-#{$i} {
+    gap: $i * 0.25rem;
+  }
+}
+
 @function fs($size) {
   @return 0.75rem + ($size * 0.25rem);
 }

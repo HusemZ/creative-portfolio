@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Button from "@/components/ui/Button/Button";
 
 const Page = () => {
+
     return (
         <div className='d-flex flex-column justify-evenly align-center vh-100'>
             <div className='text-center'>
@@ -40,7 +41,6 @@ const Page = () => {
                         <a href='https://www.linkedin.com/in/h%C3%BCsem-kulaks%C4%B1z-8b273217b/' target='_blank'>linkedin.com/in/hüsem-kulaksız</a>
                     </div>
                 </div>
-
             </div>
         </div>
     );
