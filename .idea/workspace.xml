@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a55abef3-891e-4dd1-90f3-b0aaff798362" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/finger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/section-2/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/down-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/up-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/processes/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/section-1/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/section-1/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/section-1/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/section-2/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/moonr/OneDrive/Masaüstü/HsmX/github-hsm/creative-portfolio/src/app",
+    "last_opened_file_path": "C:/Users/moonr/OneDrive/Masaüstü/HsmX/github-hsm/creative-portfolio/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,8 +65,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\moonr\OneDrive\Masaüstü\HsmX\github-hsm\creative-portfolio\src\app" />
       <recent name="C:\Users\moonr\OneDrive\Masaüstü\HsmX\github-hsm\creative-portfolio\public" />
+      <recent name="C:\Users\moonr\OneDrive\Masaüstü\HsmX\github-hsm\creative-portfolio\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\moonr\OneDrive\Masaüstü\HsmX\github-hsm\creative-portfolio\src\app" />
@@ -84,7 +86,7 @@
       <workItem from="1730877743580" duration="102000" />
       <workItem from="1730877858080" duration="5041000" />
       <workItem from="1730887142841" duration="8561000" />
-      <workItem from="1730965310812" duration="2782000" />
+      <workItem from="1730965310812" duration="5621000" />
     </task>
     <servers />
   </component>

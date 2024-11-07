@@ -1,9 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/image";
 import Button from "@/components/ui/Button/Button";
-
 const Page = () => {
-
     return (
         <div className='d-flex flex-column justify-evenly align-center vh-100'>
             <div className='text-center'>
@@ -42,6 +40,9 @@ const Page = () => {
                     </div>
                 </div>
             </div>
+            <Button href='/about' rounded  style={{ position: 'absolute', bottom: '20px', left: '0', right: '0', margin: '1.5rem auto' }}>
+                <Image src='/down-arrow.png' alt='about' width={16} height={16}/>
+            </Button>
         </div>
     );
 };
